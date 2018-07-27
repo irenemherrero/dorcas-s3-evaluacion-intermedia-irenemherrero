@@ -12,6 +12,7 @@ class App extends Component {
         return(
           <li>
             <PokemonCard 
+              evolution={pokemon.evolution}
               id={pokemon.id}
               name={pokemon.name} 
               image={pokemon.url} 
