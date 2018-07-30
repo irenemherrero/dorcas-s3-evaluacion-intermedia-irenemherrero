@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import SkillsList from './SkillsList';
 import '../styles/PokemonCard.css';
+import PropTypes from 'prop-types';
 
 class PokemonCard extends Component {
     render() {
-        console.log(this.props)
+        console.log(this.props.types)
         const {name}=this.props;
         const {url}=this.props;
         const {types}=this.props;
@@ -24,4 +25,11 @@ class PokemonCard extends Component {
       );
     }
   }
+
+  PokemonCard.propTypes = {
+    name: PropTypes.string,
+    url: PropTypes.string,
+    types: PropTypes.array
+  };
+
 export default PokemonCard;

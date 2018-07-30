@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import PokemonList from './PokemonList';
 import '../styles/App.css';
+import PropTypes from 'prop-types';
 
 class App extends Component {
 
@@ -20,4 +21,9 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  arrayPokemon: PropTypes.arrayOf(PropTypes.object)
+};
+
 export default App;

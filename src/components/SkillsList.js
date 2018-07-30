@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../styles/SkillsList.css';
+import PropTypes from 'prop-types';
 
 class SkillsList extends Component {
     render() {
@@ -14,5 +15,10 @@ class SkillsList extends Component {
         );  
     }
 }
+
+SkillsList.propTypes = {
+    skillsList: PropTypes.array,
+    skill: PropTypes.string
+  };
 
 export default SkillsList;
