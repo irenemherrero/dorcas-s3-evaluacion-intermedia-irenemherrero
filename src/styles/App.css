@@ -1,0 +1,9 @@
+.PokemonTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+
+.PokemonList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
