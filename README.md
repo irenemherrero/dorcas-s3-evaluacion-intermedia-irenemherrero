@@ -1,5 +1,6 @@
-Evaluación intermedia - Sprint 3 (Adalab)
+Evaluación intermedia ‒ Sprint 3 - Pokedex
+------
+Objetivo
+------
 
-Objetivo:
-
-Crear una Pokedex con React a partir de un array de objetos con datos de pokemon facilitado por los profesores.
+El ejercicio consiste en desarrollar una página web sencilla con React. La web consiste en un listado de pokemon, con una tarjeta para cada uno con información relevante, como el nombre, tipos y una imagen. 
